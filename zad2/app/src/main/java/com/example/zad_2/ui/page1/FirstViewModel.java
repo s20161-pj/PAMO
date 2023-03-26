@@ -5,14 +5,11 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 public class FirstViewModel extends ViewModel {
-
     private final MutableLiveData<String> mText;
-
     public FirstViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is first page");
     }
-
     public LiveData<String> getText() {
         return mText;
     }

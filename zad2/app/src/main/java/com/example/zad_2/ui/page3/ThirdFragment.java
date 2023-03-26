@@ -17,6 +17,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import com.example.zad_2.R;
 import com.example.zad_2.databinding.FragmentThirdBinding;
+
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 

@@ -10,7 +10,7 @@ public class FourthViewModel extends ViewModel {
 
     public FourthViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is fourth page");
+        mText.setValue("Co mogę jeść? Wybierz przepis...");
     }
 
     public LiveData<String> getText() {

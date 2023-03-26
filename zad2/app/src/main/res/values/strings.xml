@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">zad_2</string>
-    <string name="title_one">Page1</string>
+    <string name="title_one">Home</string>
     <string name="title_two">BMI</string>
     <string name="title_three">Harris-Benedict </string>
-    <string name="title_fourth">Page4</string>
+    <string name="title_fourth">Przepisy</string>
 </resources>

@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/title_one"
         android:name="com.example.zad_2.ui.page1.FirstFragment"
-        android:label="@string/title_one"
+        android:label="Logo"
         tools:layout="@layout/fragment_first" />
 
     <fragment
@@ -24,7 +24,7 @@
         tools:layout="@layout/fragment_third" />
     <fragment
         android:id="@+id/title_fourth"
-        android:name="com.example.zad_2.ui.page3.ThirdFragment"
-        android:label="@string/title_fourth"
+        android:name="com.example.zad_2.ui.page4.FourthFragment"
+        android:label="Rekomendowane przepisy"
         tools:layout="@layout/fragment_fourth" />
 </navigation>
