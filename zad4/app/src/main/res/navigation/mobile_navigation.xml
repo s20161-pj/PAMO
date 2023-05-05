@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/title_one">
+
+    <fragment
+        android:id="@+id/title_one"
+        android:name="com.example.zad4.ui.page1.FirstFragment"
+        android:label="Logo"
+        tools:layout="@layout/fragment_first" />
+
+    <fragment
+        android:id="@+id/title_two"
+        android:name="com.example.zad4.ui.page2.SecondFragment"
+        android:label="@string/title_two"
+        tools:layout="@layout/fragment_second" />
+
+    <fragment
+        android:id="@+id/title_three"
+        android:name="com.example.zad4.ui.page3.ThirdFragment"
+        android:label="@string/title_three"
+        tools:layout="@layout/fragment_third" />
+    <fragment
+        android:id="@+id/title_fourth"
+        android:name="com.example.zad4.ui.page4.FourthFragment"
+        android:label="Rekomendowane przepisy"
+        tools:layout="@layout/fragment_fourth" />
+    <fragment
+        android:id="@+id/title_fifth"
+        android:name="com.example.zad4.ui.page5.FifthFragment"
+        android:label="Quiz"
+        tools:layout="@layout/fragment_fifth" />
+</navigation>

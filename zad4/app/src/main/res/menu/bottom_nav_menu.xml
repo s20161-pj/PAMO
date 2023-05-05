@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/title_one"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_one" />
+
+
+    <item
+        android:id="@+id/title_two"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_two" />
+
+    <item
+        android:id="@+id/title_three"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_three" />
+    <item
+        android:id="@+id/title_fourth"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_fourth" />
+    <item
+        android:id="@+id/title_fifth"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Quiz" />
+
+</menu>
