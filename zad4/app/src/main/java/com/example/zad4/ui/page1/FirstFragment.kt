@@ -1,4 +1,4 @@
-
+//Author: Joanna Walkiewcz, s20161
 package com.example.zad4.ui.page1
 
 import android.os.Bundle
